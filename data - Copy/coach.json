@@ -1,0 +1,24 @@
+{
+    "index": {
+        "co-1": 0,
+        "co-2": 1
+    },
+    "data": [
+        {
+            "coachName": "Alpha",
+            "coachId": "co-1",
+            "ssn": "1ay16is001",
+            "sports": "cricket",
+            "experience": "3",
+            "contact": "9876543210"
+        },
+        {
+            "coachName": "Beta",
+            "coachId": "co-2",
+            "ssn": "1ay16is002",
+            "sports": "cricket",
+            "experience": "3",
+            "contact": "9876543210"
+        }
+    ]
+}

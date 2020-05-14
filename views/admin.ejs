@@ -1,0 +1,107 @@
+<% include layouts/header.ejs %>
+<style>
+    img {
+        width: 100px;
+        display: block;
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+
+    <ul class="navbar-nav">
+
+        <a class="navbar-brand" href="#">
+            <img src="../img/admin3.png" style="width: 30px" alt="Admin">
+        </a>
+        <li class="nav-item">
+            <a class="nav-link" href="../">Public</a>
+        </li>
+        <li class="nav-item nav-link active"><%= user %></li>
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/logout">Logout</a>
+        </li>
+
+    </ul>
+
+</nav>
+<header class="clearfix" style="height: 100vh; background: url(../img/a1.jpg) no-repeat ; background-size: cover;">
+    <div class="container">
+        <img src="../img/admin-icon.png" alt="Sports Logo">
+    </div>
+    <div id="content">
+        <div id="main-menu" class="container">
+            <h2 class="display-4 text-center text-white">Admin Index</h2>
+            <ul>
+                <div class="card-group">
+
+                    <div class="card mr-4 bg-light" style="width:400px">
+
+                        <div class="card-body">
+                            <h4 class="lead card-title">Players</h4>
+                            <a href="/admin/playerList" class="btn btn-info">Check</a>
+                        </div>
+                    </div>
+                    <div class="card mr-4 bg-light" style="width:400px">
+
+                        <div class="card-body">
+                            <h4 class="lead card-title">Coach</h4>
+                            <a href="/admin/coachList" class="btn btn-info">Check</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="card-group text-center" style="margin-top: 20px;">
+
+                    <!-- <div class="card mr-4 bg-light" style="width:400px">
+
+                        <div class="card-body">
+                            <h4 class="lead card-title">Contents</h4>
+                            <a href="/admin/contentList" class="btn btn-info">Check</a>
+                        </div>
+                    </div> -->
+
+                    <div class="card mr-4 bg-light" style="width:400px">
+
+                            <div class="card-body ">
+                                <h4 class="lead card-title">Admins</h4>
+                                <a href="/admin/adminList" class="btn btn-info">Check</a>
+                            </div>
+                        </div>
+
+                    <!-- <div class="card mr-4 bg-light" style="width:400px">
+
+                        <div class="card-body">
+                            <h4 class="lead card-title">Sponsors</h4>
+                            <a href="/admin/sponsorList" class="btn btn-info">Check</a>
+                        </div>
+                    </div>
+                     -->
+
+                </div>
+              
+            </ul>
+        </div>
+
+    </div>
+</header>
+
+
+<footer class="page-footer font-small blue pt-4 bg-dark">
+    <div class="footer-copyright text-center py-3 text-light">Copyright 2019, Vinsmoke </div>
+
+    <!--<p class="footer-copyright text-center py-3">If you copy the source code just ligma ballz</p>-->
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

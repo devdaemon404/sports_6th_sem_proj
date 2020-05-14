@@ -1,0 +1,19 @@
+{
+    "index": {
+        "py-1": 0
+    },
+    "data": [
+        {
+            "playerName": "Alpha",
+            "playerId": "py-1",
+            "gender": "Male",
+            "height": "6.9",
+            "weight": "69",
+            "year": "First",
+            "contact": "9876543210",
+            "usn": "1ay16is001",
+            "sports": "Cricket",
+            "role": "Batsmen"
+        }
+    ]
+}

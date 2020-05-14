@@ -1,0 +1,16 @@
+{
+  "bk@email.com": {
+    "firstName":"b",
+    "lastName":"k",
+    "username": "bharath007",
+    "email": "bk@email.com",
+    "password": "q1234"
+  },
+  "ak@email.com": {
+    "firstName":"a",
+    "lastName":"k",
+    "username": "arun007",
+    "email": "ak@email.com",
+    "password": "1234"
+  }
+}
